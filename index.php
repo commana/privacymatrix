@@ -64,8 +64,8 @@ foreach ($capabilities as $capability) {
 // Output...
 
 $colors = array(
-    'possible' => '#38761D',
-    'not_possible' => '#CC0000'
+    'possible' => '#0BDB00',
+    'not_possible' => '#FF1C1C'
 );
 
 $strrows = array();
