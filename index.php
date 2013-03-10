@@ -56,7 +56,6 @@ $capabilities = array(
     //'moodle/course:useremail', // "enable/disable email address"
 );
 
-//$context = context_system::instance();
 $context = get_context_instance(CONTEXT_COURSE, $course->id);
 $roles = role_fix_names(get_all_roles(), $context);
 $roleheader = array('&nbsp;');
